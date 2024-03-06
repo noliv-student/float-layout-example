@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 /*Navigation*/
@@ -13,20 +14,13 @@ header,
 }
 
 .main-nav {
-    color: aliceblue;
     background-color: #242424;
 }
 
 .main-nav ul li {
     display: inline-block;
-    text-decoration: none;
     margin: 0 12px;
 }   
-
-.main-nav ul li a {
-    text-decoration: none;
-    color: lightblue;
-}
 
 .main-nav img {
     width: 50px;
@@ -40,6 +34,10 @@ header,
 
 .main-nav > a{
     vertical-align: bottom;
+}
+
+a {
+    color: lightblue;
 }
 
 #spacer {
